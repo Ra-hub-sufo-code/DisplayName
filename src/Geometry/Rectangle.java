@@ -5,10 +5,9 @@ public class Rectangle {
     private int length;
 
     public Rectangle(int width, int length) {
-        if ( width > 0 && length >0 ) {
+
             this.width = width;
             this.length = length;
-        }
     }
 
     public double getArea ( ) {
